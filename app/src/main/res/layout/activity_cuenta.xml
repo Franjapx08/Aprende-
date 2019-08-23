@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ColorPreg"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingRight="5px"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/puntos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="7dp"
+                android:textColor="@color/colorTit"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Operaciónes basicas"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="20dp"
+                tools:layout_editor_absoluteY="8dp"
+                tools:layout_editor_absoluteX="8dp"
+                android:background="@drawable/buttonstyle"
+                android:textSize="25dp"
+
+                />
+
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorIcons"
+                android:layout_marginRight="5dp"/>
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="7dp"
+                android:textColor="@color/colorTit"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="General"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="20dp"
+                tools:layout_editor_absoluteY="8dp"
+                tools:layout_editor_absoluteX="8dp"
+                android:background="@drawable/buttonstyle"
+                android:textSize="25dp"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorIcons"
+                android:layout_marginRight="5dp"/>
+
+
+            <TextView
+
+                android:id="@+id/textView3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Versión"
+                android:textColor="@color/colorIcons"
+                android:textSize="25dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="1.0.1"
+                android:textColor="@color/colorIcons"
+                android:textSize="25dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorIcons"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="7dp"
+                android:textColor="@color/colorTit"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="App Desarrollada por:"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="20dp"
+                tools:layout_editor_absoluteY="8dp"
+                tools:layout_editor_absoluteX="8dp"
+                android:background="@drawable/buttonstyle"
+                android:textSize="25dp"/>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorIcons"
+                android:layout_marginRight="5dp"/>
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Francisco Avalos Prado"
+                android:textColor="@color/colorIcons"
+                android:textSize="25dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Iris Daniela Meza Ojeda"
+                android:textColor="@color/colorIcons"
+                android:textSize="25dp" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Roberto Carlos Moreno Castro"
+                android:textColor="@color/colorIcons"
+                android:textSize="25dp" />
+
+
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorIcons"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="7dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Desarrollada para la matería de programación movíl"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="20dp"
+                tools:layout_editor_absoluteY="8dp"
+                tools:layout_editor_absoluteX="8dp"
+                android:textColor="@color/colorTit"
+                android:background="@drawable/buttonstyle"
+                android:textSize="25dp"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorIcons"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Maestro. Arturo De Casso"
+                android:textColor="@color/colorIcons"
+                android:textSize="25dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorIcons"
+                android:layout_marginRight="5dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Universidad Autónoma de B.C.S"
+                android:textColor="@color/colorIcons"
+                android:textSize="25dp" />
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorIcons"
+                android:layout_marginRight="5dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.franj.mtelc20">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".inicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".suma2" />
+        <activity android:name=".suma_facil" />
+        <activity android:name=".RespSuma" />
+        <activity android:name=".Resta" />
+        <activity android:name=".Multi" />
+        <activity android:name=".Divi" />
+        <activity android:name=".AcercaDe" />
+        <activity android:name=".Cuenta" />
+        <activity
+            android:name=".VistaComponente"
+            android:label="@string/title_activity_vista_componente"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

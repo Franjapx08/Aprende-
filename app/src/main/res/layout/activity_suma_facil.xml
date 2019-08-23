@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.franj.mtelc20.suma_facil">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mylista"
+        android:layout_width="match_parent"
+        android:background="@color/ColorPreg"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <Button
+            android:id="@+id/actp"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonstyle"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Aceptar"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTit"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

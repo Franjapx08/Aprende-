@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ColorPreg">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        card_view:cardBackgroundColor="#FFFF"
+        android:id="@+id/cv">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/person_photo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/peras1"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/num"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numero"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/person_name"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+
+
+            <EditText
+                android:id="@+id/valida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:hint="Respuesta"
+                android:inputType="number"
+                android:maxLength="4"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView android:id="@+id/hidden_value2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+            <TextView android:id="@+id/hidden_value3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/ok"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/buttonstyle"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Guardar respuesta"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTit"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="20dp"
+                    android:typeface="normal"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+</LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
+
+

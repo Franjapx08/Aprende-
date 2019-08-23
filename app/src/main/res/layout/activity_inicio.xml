@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorPreg"
+    tools:context="com.example.franj.mtelc20.inicio">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingRight="5px"
+
+            android:weightSum="1">
+
+
+            <!--   <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/textPrin"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/buttonstyle"
+                    android:shadowColor="#A8A8A8"
+
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="OPERACIÓNES"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTit"
+                    android:textSize="25sp"
+                    android:typeface="normal" />
+
+            </RelativeLayout>-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/suma"
+                    android:layout_width="450dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/buttonstyle"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Suma"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTit"
+                    android:textSize="25sp"
+                    android:typeface="normal" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/resta"
+                    android:layout_width="450dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/buttonstyle"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Resta"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTit"
+                    android:textSize="25sp"
+                    android:typeface="normal" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/multi"
+                    android:layout_width="450dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/buttonstyle"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Multiplicación"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTit"
+                    android:textSize="25sp"
+                    android:typeface="normal" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/divi"
+                    android:layout_width="450dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/buttonstyle"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="División"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTit"
+                    android:textSize="25sp"
+                    android:typeface="normal" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="235dp">
+
+                <Button
+                    android:id="@+id/salir"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="86dp"
+                    android:background="@drawable/buttonstyle"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Salir"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTit"
+                    android:textSize="20sp"
+                    android:typeface="normal" />
+
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+
+                <ImageButton
+                    android:id="@+id/config"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="100dp"
+                    android:background="@drawable/buttonstyle"
+                    app:srcCompat="@drawable/info" />
+
+
+                <ImageButton
+                    android:id="@+id/help"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/buttonstyle"
+                    app:srcCompat="@drawable/help" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
